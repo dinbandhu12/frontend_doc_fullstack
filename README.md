@@ -12,7 +12,7 @@ Welcome to the LiveDocs frontend repository. LiveDocs is a real-time document co
 
 ### Live Preview
 
-1. Click the [Live Preview](https) button to see the document in real-time. 
+1. Click the [Live Preview](https://frontend-doc-fullstack.vercel.app/) button to see the document in real-time. 
 
 2. Output Image
 ![image](/imgs/output_img.png)
