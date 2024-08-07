@@ -21,6 +21,21 @@ header {
     font-size: 24px;
     font-weight: bold;
 }
+.case-study {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.1s ease-in-out;
+}
+.case-study:hover {
+    color: #aeb1b9;
+}
+.auth-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .auth-buttons button {
     padding: 10px 20px;
     margin-left: 10px;

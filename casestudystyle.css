@@ -1,0 +1,109 @@
+body, html {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+header {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.subtitle {
+    font-size: 1.2em;
+    opacity: 0.8;
+}
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+h2 {
+    color: #4a4a4a;
+    border-bottom: 2px solid #6e8efb;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.feature-list {
+    list-style-type: none;
+    padding: 0;
+}
+.feature-list li {
+    margin-bottom: 15px;
+    padding-left: 30px;
+    position: relative;
+}
+.feature-list li:before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #6e8efb;
+    font-weight: bold;
+}
+blockquote {
+    font-style: italic;
+    border-left: 4px solid #a777e3;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+.highlight {
+    background-color: #6e8efb;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.stat-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.stat-card .number {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #6e8efb;
+}
+.cta-button {
+    display: inline-block;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+.cta-button:hover {
+    transform: translateY(-3px);
+}
